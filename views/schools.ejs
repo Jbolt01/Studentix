@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Schools</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <% r.forEach((b) =>{ %>
+        <a href='/schools/<%= b.schoolID %>'> <%= b.name %> </a>
+    <% })%>
+
+</html>
